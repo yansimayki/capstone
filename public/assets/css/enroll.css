@@ -1,0 +1,142 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.info{
+    margin-left: 50px;
+}
+.viewwrapper{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.imgwrapper{
+    width: 250px;
+    height: 53vh;
+    box-shadow: 1px 1px 6px rgba(186, 174, 174, 0.6);
+    margin-right: 40px;
+}
+
+.imgcontainer{
+    border: 1px solid black;
+    width: 100%;
+    height: 230px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.imgcontainer img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    padding: 20px;
+}
+
+.sectioncontainer{
+    padding: 30px 35px 5px;
+    display: flex;
+}
+
+
+
+.infowrapper{
+    width: 70%;
+    height: 87vh;
+    box-shadow: 1px 1px 6px rgba(186, 174, 174, 0.6);
+}
+
+.infocontainer{
+    padding: 20px 35px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.statcontainer{
+    padding: 10px 35px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.space{
+    margin-right: 40px;
+}
+
+.inptsize{
+    width: 240px;
+}
+
+.inptsizegender{
+    width: 251px !important;
+}
+
+.gender{
+    display: flex;
+    flex-direction: column;
+}
+
+.gendersel{
+    width: 300px;
+    height: 30px;
+}
+
+
+.contactcontainer{
+    padding: 10px 35px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.emailinpt{
+    margin-right: 30px;
+    width: 50%;
+}
+
+.contactinpt{
+    width: 50%;
+}
+
+.addresscontainer{
+    padding: 10px 35px;
+}
+
+.addressinfocontain{
+    padding: 10px 35px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.parentscontainer{
+    padding: 10px 35px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.fatherinpt{
+    margin-right: 30px;
+    width: 50%;
+}
+
+
+.motherinpt{
+    width: 50%;
+}
+
+
+.btncontianer{
+    padding: 0 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+#btnEnroll{
+    margin-top: -20px;
+}
